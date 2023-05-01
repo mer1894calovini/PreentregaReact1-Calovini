@@ -1,16 +1,16 @@
 header{
     background-color: red;
-    
+    margin-right: 2 rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 h1{
-    text-align: center;
+    margin: 1rem;
 }
 
 li{
- 
+
     display: inline;
     align-items: baseline;
     margin: 1rem;

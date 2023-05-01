@@ -5,7 +5,7 @@ import CardWidget from '../cardwidget/CardWidget'
 const NavBar = () => {
   return (
     <header>
-        <h1>Mundo Fitnes</h1>
+        <h1>Mundo Fitness</h1>
         <nav>
           <ul>
             <li>ROPA</li>

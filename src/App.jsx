@@ -12,7 +12,7 @@ function App() {
     <>
     <NavBar/>
     <h1>MUNDO DEPORTES</h1>
-    <ItemListContainer greeting= "CHICOS FITNES" />
+    <ItemListContainer greeting= "CHICOS FITNESS" />
     </>
     
   
