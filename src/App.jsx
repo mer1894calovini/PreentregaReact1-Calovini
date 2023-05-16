@@ -1,8 +1,9 @@
 
 import './App.css';
-import ItemListContainer from './componentes/ItemListContainer/ItemListContainer';
-import NavBar from './componentes/NavBar/NavBar';
 
+// import ItemCount from './componentes/ItemCount/ItemCount';
+import ItemListContainer from './componentes/ItemListContainer/ItemListContainer';
+// import { BrowserRouter, Route, Route } from 'react-router-dom';
 
 
 
@@ -10,11 +11,15 @@ import NavBar from './componentes/NavBar/NavBar';
 function App() {
   return (
     <>
-    <NavBar/>
-    <h1>MUNDO DEPORTES</h1>
-    <ItemListContainer greeting= "CHICOS FITNESS" />
-    </>
     
+    <h1>MUNDO DEPORTES</h1>
+    {/* {
+      // <ItemCount inicial={1} stock={10} /> */
+    }
+    
+    <ItemListContainer/>
+    </>
+
   
   );
 }

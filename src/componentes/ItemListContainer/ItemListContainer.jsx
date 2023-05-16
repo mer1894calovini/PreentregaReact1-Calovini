@@ -1,10 +1,25 @@
-import './ItemlistContainer.css'
 
-const ItemListContainer = (saludo) => {
+import  { useState, useEffect} from 'react';
+import { getElementos } from '../../asyncmock';
+import ItemList from '../ItemList/ItemList';
+
+
+const ItemListContainer = () => {
+    const [ elementos, setElementos] = useState ([]);
+
+    useEffect( ()  => {
+        getElementos
+        .then( respuesta => setElementos(respuesta))
+        .catch(error => console.error(error))
+    }, [])
+
+
+
     return (
-    <>
-        <h2>BIENVENIDOS: {saludo.greeting}</h2>
-    </>
+        <div>
+            <h2>Productos</h2>
+            <ItemList elementos={elementos} />
+        </div>
     )
 }
 
