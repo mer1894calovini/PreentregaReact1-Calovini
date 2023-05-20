@@ -1,5 +1,7 @@
 header{
+    margin: 0rem;
     background-color: red;
+    color: antiquewhite;
     margin-right: 1rem;
     display: flex;
     align-items: center;

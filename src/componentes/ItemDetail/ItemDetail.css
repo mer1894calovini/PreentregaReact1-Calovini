@@ -1,0 +1,11 @@
+.contenedorItem {
+    text-align: center;
+    border: 1px solid  whitesmoke;
+    margin: 3rem;
+    color: antiquewhite;
+}
+
+img {
+    width: 100vh;
+}
+

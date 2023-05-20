@@ -1,0 +1,4 @@
+.contenedorElementos {
+    display: flex;
+    flex-wrap: wrap;
+}

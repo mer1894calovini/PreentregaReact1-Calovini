@@ -1,23 +1,29 @@
 
-import './App.css';
-
-// import ItemCount from './componentes/ItemCount/ItemCount';
+import './App.css'; 
 import ItemListContainer from './componentes/ItemListContainer/ItemListContainer';
-// import { BrowserRouter, Route, Route } from 'react-router-dom';
-
-
-
+import NavBar from './componentes/NavBar/NavBar'; 
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import ItemDetailContainer from './componentes/ItemdetailContainer/ItemDetailContainer';
 
 function App() {
   return (
-    <>
-    
-    <h1>MUNDO DEPORTES</h1>
-    {/* {
-      // <ItemCount inicial={1} stock={10} /> */
+  <>
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route path='/' element={ <ItemListContainer/> }  /> 
+        <Route path='categoria/:idCategoria' element={ <ItemListContainer/> } /> 
+        <Route path='Item/:idItem' element= { <ItemDetailContainer /> } /> 
+      </Routes>
+    </BrowserRouter>
+
+    {/*  {   
+      <h1>MUNDO DEPORTES</h1>
+      
+      
     }
-    
-    <ItemListContainer/>
+       */}
+     
     </>
 
   

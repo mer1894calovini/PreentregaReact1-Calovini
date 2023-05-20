@@ -2,19 +2,30 @@
 import './NavBar.css'
 import Logo from '../logo/Logo'
 import CardWidget from '../cardwidget/CardWidget'
-
+import  {NavLink, Link } from "react-router-dom"
 const NavBar = () => {
   return (
     <header>
-        <h1>Mundo Fitness</h1>
-        <Logo />
-        <nav>
+        <Link to = {"/"}>
+          <img className='logo' src="https://cdn-icons-png.flaticon.com/512/9/9194.png" alt="Logo Pesas" />
+        </Link>
+          
           <ul>
-            <li>ROPA</li>
-            <li>CALZADOS</li>
-            <li>ENTRENAMIENTO</li>
+            
+            <li>
+              <NavLink to={"/categoria/2"} >INDUMENTARIA</NavLink>
+            </li>
+
+            <li>
+              <NavLink to={"/categoria/3"} >CALZADOS</NavLink> 
+            </li>
+            
+            <li>
+              <NavLink to={"/categoria/4"}>ENTRENAMIENTO</NavLink> 
+            </li>
+          
           </ul>
-        </nav>
+      
       <CardWidget />
     </header>
   )
