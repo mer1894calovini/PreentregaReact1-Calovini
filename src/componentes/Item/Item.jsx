@@ -7,7 +7,7 @@ const Item = ({id,nombre, precio, img}) => {
       <h3> Nombre: {nombre} </h3>
       <p> Precio: {precio} </p>
       <p> ID: {id} </p>
-      <Link to={`/item/${id}`}> VER DETALLES </Link>
+      <Link to={`../item/${id}`}> VER DETALLES </Link>
     </div>
   )
 }
