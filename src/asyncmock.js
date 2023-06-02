@@ -1,8 +1,8 @@
 const elementos =  [
-    {nombre: "calza", precio: 7500, id: "1", img:"./img/calza.jpg", idCat:"2"},
-    {nombre: "top", precio: 2500, id: "2", img:"./img/top.jpg", idCat:"2"},
-    {nombre: "zapatillas", precio: 9500, id: "3", img:"./img/zapatillas.jpg", idCat: "3"},
-    {nombre: "pesas", precio: 6500, id: "4", img:"./img/pesas.jpg", idCat: "4"}
+    {nombre: "calza", precio: 7500, id: "1", stock: 10, img:"./img/calza.jpg", idCat:"2"},
+    {nombre: "top", precio: 2500, id: "2", stock: 10, img:"./img/top.jpg", idCat:"2"},
+    {nombre: "zapatillas", precio: 9500, id: "3", stock: 10, img:"./img/zapatillas.jpg", idCat: "3"},
+    {nombre: "pesas", precio: 6500, id: "4", stock: 10, img:"./img/pesas.jpg", idCat: "4"}
 ]
 
 export const getElementos = () =>  {
