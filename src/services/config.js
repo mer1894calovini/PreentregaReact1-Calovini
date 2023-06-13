@@ -4,7 +4,7 @@ import { getFirestore } from "firebase/firestore"
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCmxwd1LXwRUj9bs0CSPQopKvTw_eVpVAE",
+    apiKey: process.env.AIzaSyCmxwd1LXwRUj9bs0CSPQopKvTw_eVpVAE,
     authDomain: "mundo-fitness-b08fb.firebaseapp.com",
     projectId: "mundo-fitness-b08fb",
     storageBucket: "mundo-fitness-b08fb.appspot.com",
