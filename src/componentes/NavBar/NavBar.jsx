@@ -13,15 +13,15 @@ const NavBar = () => {
           <ul>
             
             <li>
-              <NavLink to={"/categoria/2"} >INDUMENTARIA</NavLink>
+              <NavLink className="miBtn" activeClassName="active" to={"/categoria/2"} >INDUMENTARIA</NavLink>
             </li>
 
             <li>
-              <NavLink to={"/categoria/3"} >CALZADOS</NavLink> 
+              <NavLink className="miBtn" activeClassName="active" to={"/categoria/3"} >CALZADOS</NavLink> 
             </li>
             
             <li>
-              <NavLink to={"/categoria/4"}>ENTRENAMIENTO</NavLink> 
+              <NavLink className="miBtn" activeClassName="active" to={"/categoria/4"}>ENTRENAMIENTO</NavLink> 
             </li>
           
           </ul>

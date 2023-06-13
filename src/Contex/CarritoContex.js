@@ -24,7 +24,7 @@ export const CarritoProvider = ({children}) => {
         return carrito.some(elemento => elemento.id === id );
     }
     const eliminarProducto = (id) => {
-        const carritoActualizado = carrito.filter(elemento =>elemento.id !== id);
+        const carritoActualizado = carrito.filter(elemento => elemento.item.id !== id);
             setCarrito(carritoActualizado);
     }
 

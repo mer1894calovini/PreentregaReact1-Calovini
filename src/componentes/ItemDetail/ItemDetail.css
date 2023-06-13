@@ -9,3 +9,14 @@ img {
     width: 100vh;
 }
 
+.button{
+    background-color: rgb(182, 36, 36);
+    color: whitesmoke;
+    font-size: 1.1rem;
+    text-align: center;
+    width: 8rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}

@@ -11,6 +11,12 @@ h1{
     margin-left: 1rem;
 }
 
+.logo{
+width: 3rem;
+}
+
+
+
 li{
 
     display: inline;
@@ -18,3 +24,12 @@ li{
     margin: 1rem;
     cursor: pointer;
 }
+
+.miBtn{
+    
+    color: rgb(16, 15, 15);
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    }
